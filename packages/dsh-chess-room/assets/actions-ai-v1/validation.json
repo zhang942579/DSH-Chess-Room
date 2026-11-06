@@ -1,0 +1,1177 @@
+{
+  "frameCount": 56,
+  "trackCount": 7,
+  "cropDiscardedNontransparentPixels": 0,
+  "alphaSumPreserved": true,
+  "normalizedPixelsExact": true,
+  "distinctDecodedFramesPerTrack": {
+    "walk-right": 8,
+    "take-stone": 8,
+    "hold-stone": 8,
+    "place-stone": 8,
+    "pout-stomp": 8,
+    "punch-small": 8,
+    "cross-arms": 8
+  },
+  "pngBackupAlphaExact": true,
+  "frameMetrics": [
+    {
+      "track": "walk-right",
+      "index": 1,
+      "sourceAlphaBbox": [
+        59,
+        144,
+        325,
+        467
+      ],
+      "normalizedAlphaBbox": [
+        59,
+        47,
+        325,
+        370
+      ],
+      "alphaSum": 12308145
+    },
+    {
+      "track": "walk-right",
+      "index": 2,
+      "sourceAlphaBbox": [
+        61,
+        148,
+        324,
+        467
+      ],
+      "normalizedAlphaBbox": [
+        61,
+        51,
+        324,
+        370
+      ],
+      "alphaSum": 12175462
+    },
+    {
+      "track": "walk-right",
+      "index": 3,
+      "sourceAlphaBbox": [
+        60,
+        146,
+        324,
+        467
+      ],
+      "normalizedAlphaBbox": [
+        60,
+        49,
+        324,
+        370
+      ],
+      "alphaSum": 12243327
+    },
+    {
+      "track": "walk-right",
+      "index": 4,
+      "sourceAlphaBbox": [
+        61,
+        142,
+        323,
+        466
+      ],
+      "normalizedAlphaBbox": [
+        61,
+        45,
+        323,
+        369
+      ],
+      "alphaSum": 12224795
+    },
+    {
+      "track": "walk-right",
+      "index": 5,
+      "sourceAlphaBbox": [
+        61,
+        139,
+        324,
+        467
+      ],
+      "normalizedAlphaBbox": [
+        61,
+        42,
+        324,
+        370
+      ],
+      "alphaSum": 12197517
+    },
+    {
+      "track": "walk-right",
+      "index": 6,
+      "sourceAlphaBbox": [
+        59,
+        143,
+        325,
+        467
+      ],
+      "normalizedAlphaBbox": [
+        59,
+        46,
+        325,
+        370
+      ],
+      "alphaSum": 12292591
+    },
+    {
+      "track": "walk-right",
+      "index": 7,
+      "sourceAlphaBbox": [
+        60,
+        137,
+        323,
+        466
+      ],
+      "normalizedAlphaBbox": [
+        60,
+        40,
+        323,
+        369
+      ],
+      "alphaSum": 12322766
+    },
+    {
+      "track": "walk-right",
+      "index": 8,
+      "sourceAlphaBbox": [
+        62,
+        142,
+        324,
+        467
+      ],
+      "normalizedAlphaBbox": [
+        62,
+        45,
+        324,
+        370
+      ],
+      "alphaSum": 12281023
+    },
+    {
+      "track": "take-stone",
+      "index": 1,
+      "sourceAlphaBbox": [
+        58,
+        156,
+        325,
+        467
+      ],
+      "normalizedAlphaBbox": [
+        59,
+        59,
+        326,
+        370
+      ],
+      "alphaSum": 11350140
+    },
+    {
+      "track": "take-stone",
+      "index": 2,
+      "sourceAlphaBbox": [
+        63,
+        167,
+        324,
+        467
+      ],
+      "normalizedAlphaBbox": [
+        60,
+        70,
+        321,
+        370
+      ],
+      "alphaSum": 10845906
+    },
+    {
+      "track": "take-stone",
+      "index": 3,
+      "sourceAlphaBbox": [
+        58,
+        189,
+        319,
+        466
+      ],
+      "normalizedAlphaBbox": [
+        65,
+        92,
+        326,
+        369
+      ],
+      "alphaSum": 10475829
+    },
+    {
+      "track": "take-stone",
+      "index": 4,
+      "sourceAlphaBbox": [
+        52,
+        203,
+        317,
+        467
+      ],
+      "normalizedAlphaBbox": [
+        67,
+        106,
+        332,
+        370
+      ],
+      "alphaSum": 10000199
+    },
+    {
+      "track": "take-stone",
+      "index": 5,
+      "sourceAlphaBbox": [
+        67,
+        148,
+        300,
+        467
+      ],
+      "normalizedAlphaBbox": [
+        84,
+        51,
+        317,
+        370
+      ],
+      "alphaSum": 11690599
+    },
+    {
+      "track": "take-stone",
+      "index": 6,
+      "sourceAlphaBbox": [
+        69,
+        147,
+        299,
+        467
+      ],
+      "normalizedAlphaBbox": [
+        85,
+        50,
+        315,
+        370
+      ],
+      "alphaSum": 11558334
+    },
+    {
+      "track": "take-stone",
+      "index": 7,
+      "sourceAlphaBbox": [
+        74,
+        143,
+        297,
+        467
+      ],
+      "normalizedAlphaBbox": [
+        87,
+        46,
+        310,
+        370
+      ],
+      "alphaSum": 11653825
+    },
+    {
+      "track": "take-stone",
+      "index": 8,
+      "sourceAlphaBbox": [
+        80,
+        145,
+        300,
+        467
+      ],
+      "normalizedAlphaBbox": [
+        84,
+        48,
+        304,
+        370
+      ],
+      "alphaSum": 11243791
+    },
+    {
+      "track": "hold-stone",
+      "index": 1,
+      "sourceAlphaBbox": [
+        53,
+        159,
+        333,
+        467
+      ],
+      "normalizedAlphaBbox": [
+        53,
+        62,
+        333,
+        370
+      ],
+      "alphaSum": 12602702
+    },
+    {
+      "track": "hold-stone",
+      "index": 2,
+      "sourceAlphaBbox": [
+        54,
+        159,
+        334,
+        467
+      ],
+      "normalizedAlphaBbox": [
+        54,
+        62,
+        334,
+        370
+      ],
+      "alphaSum": 12559172
+    },
+    {
+      "track": "hold-stone",
+      "index": 3,
+      "sourceAlphaBbox": [
+        48,
+        164,
+        320,
+        467
+      ],
+      "normalizedAlphaBbox": [
+        48,
+        67,
+        320,
+        370
+      ],
+      "alphaSum": 12231681
+    },
+    {
+      "track": "hold-stone",
+      "index": 4,
+      "sourceAlphaBbox": [
+        56,
+        158,
+        331,
+        467
+      ],
+      "normalizedAlphaBbox": [
+        56,
+        61,
+        331,
+        370
+      ],
+      "alphaSum": 12494134
+    },
+    {
+      "track": "hold-stone",
+      "index": 5,
+      "sourceAlphaBbox": [
+        55,
+        157,
+        332,
+        467
+      ],
+      "normalizedAlphaBbox": [
+        55,
+        60,
+        332,
+        370
+      ],
+      "alphaSum": 12512581
+    },
+    {
+      "track": "hold-stone",
+      "index": 6,
+      "sourceAlphaBbox": [
+        56,
+        157,
+        331,
+        467
+      ],
+      "normalizedAlphaBbox": [
+        56,
+        60,
+        331,
+        370
+      ],
+      "alphaSum": 12468941
+    },
+    {
+      "track": "hold-stone",
+      "index": 7,
+      "sourceAlphaBbox": [
+        73,
+        157,
+        347,
+        467
+      ],
+      "normalizedAlphaBbox": [
+        73,
+        60,
+        347,
+        370
+      ],
+      "alphaSum": 12590779
+    },
+    {
+      "track": "hold-stone",
+      "index": 8,
+      "sourceAlphaBbox": [
+        56,
+        157,
+        330,
+        467
+      ],
+      "normalizedAlphaBbox": [
+        56,
+        60,
+        330,
+        370
+      ],
+      "alphaSum": 12440801
+    },
+    {
+      "track": "place-stone",
+      "index": 1,
+      "sourceAlphaBbox": [
+        41,
+        125,
+        331,
+        466
+      ],
+      "normalizedAlphaBbox": [
+        41,
+        28,
+        331,
+        369
+      ],
+      "alphaSum": 14922249
+    },
+    {
+      "track": "place-stone",
+      "index": 2,
+      "sourceAlphaBbox": [
+        54,
+        138,
+        324,
+        467
+      ],
+      "normalizedAlphaBbox": [
+        54,
+        41,
+        324,
+        370
+      ],
+      "alphaSum": 13873127
+    },
+    {
+      "track": "place-stone",
+      "index": 3,
+      "sourceAlphaBbox": [
+        70,
+        174,
+        343,
+        467
+      ],
+      "normalizedAlphaBbox": [
+        70,
+        77,
+        343,
+        370
+      ],
+      "alphaSum": 12283983
+    },
+    {
+      "track": "place-stone",
+      "index": 4,
+      "sourceAlphaBbox": [
+        60,
+        186,
+        332,
+        467
+      ],
+      "normalizedAlphaBbox": [
+        60,
+        89,
+        332,
+        370
+      ],
+      "alphaSum": 11916895
+    },
+    {
+      "track": "place-stone",
+      "index": 5,
+      "sourceAlphaBbox": [
+        64,
+        180,
+        331,
+        466
+      ],
+      "normalizedAlphaBbox": [
+        64,
+        83,
+        331,
+        369
+      ],
+      "alphaSum": 11722815
+    },
+    {
+      "track": "place-stone",
+      "index": 6,
+      "sourceAlphaBbox": [
+        71,
+        152,
+        328,
+        467
+      ],
+      "normalizedAlphaBbox": [
+        71,
+        55,
+        328,
+        370
+      ],
+      "alphaSum": 12117539
+    },
+    {
+      "track": "place-stone",
+      "index": 7,
+      "sourceAlphaBbox": [
+        67,
+        136,
+        313,
+        467
+      ],
+      "normalizedAlphaBbox": [
+        67,
+        39,
+        313,
+        370
+      ],
+      "alphaSum": 12480951
+    },
+    {
+      "track": "place-stone",
+      "index": 8,
+      "sourceAlphaBbox": [
+        67,
+        134,
+        311,
+        467
+      ],
+      "normalizedAlphaBbox": [
+        67,
+        37,
+        311,
+        370
+      ],
+      "alphaSum": 12607283
+    },
+    {
+      "track": "pout-stomp",
+      "index": 1,
+      "sourceAlphaBbox": [
+        59,
+        151,
+        348,
+        467
+      ],
+      "normalizedAlphaBbox": [
+        59,
+        54,
+        348,
+        370
+      ],
+      "alphaSum": 13381549
+    },
+    {
+      "track": "pout-stomp",
+      "index": 2,
+      "sourceAlphaBbox": [
+        49,
+        151,
+        339,
+        467
+      ],
+      "normalizedAlphaBbox": [
+        49,
+        54,
+        339,
+        370
+      ],
+      "alphaSum": 13344487
+    },
+    {
+      "track": "pout-stomp",
+      "index": 3,
+      "sourceAlphaBbox": [
+        49,
+        155,
+        333,
+        467
+      ],
+      "normalizedAlphaBbox": [
+        49,
+        58,
+        333,
+        370
+      ],
+      "alphaSum": 13482679
+    },
+    {
+      "track": "pout-stomp",
+      "index": 4,
+      "sourceAlphaBbox": [
+        54,
+        154,
+        344,
+        468
+      ],
+      "normalizedAlphaBbox": [
+        54,
+        57,
+        344,
+        371
+      ],
+      "alphaSum": 13244498
+    },
+    {
+      "track": "pout-stomp",
+      "index": 5,
+      "sourceAlphaBbox": [
+        52,
+        148,
+        302,
+        467
+      ],
+      "normalizedAlphaBbox": [
+        52,
+        51,
+        302,
+        370
+      ],
+      "alphaSum": 12377653
+    },
+    {
+      "track": "pout-stomp",
+      "index": 6,
+      "sourceAlphaBbox": [
+        59,
+        152,
+        342,
+        466
+      ],
+      "normalizedAlphaBbox": [
+        59,
+        55,
+        342,
+        369
+      ],
+      "alphaSum": 13472163
+    },
+    {
+      "track": "pout-stomp",
+      "index": 7,
+      "sourceAlphaBbox": [
+        57,
+        153,
+        356,
+        472
+      ],
+      "normalizedAlphaBbox": [
+        57,
+        56,
+        356,
+        375
+      ],
+      "alphaSum": 13255270
+    },
+    {
+      "track": "pout-stomp",
+      "index": 8,
+      "sourceAlphaBbox": [
+        59,
+        153,
+        349,
+        467
+      ],
+      "normalizedAlphaBbox": [
+        59,
+        56,
+        349,
+        370
+      ],
+      "alphaSum": 13157970
+    },
+    {
+      "track": "punch-small",
+      "index": 1,
+      "sourceAlphaBbox": [
+        30,
+        138,
+        308,
+        467
+      ],
+      "normalizedAlphaBbox": [
+        30,
+        41,
+        308,
+        370
+      ],
+      "alphaSum": 14113039
+    },
+    {
+      "track": "punch-small",
+      "index": 2,
+      "sourceAlphaBbox": [
+        26,
+        140,
+        307,
+        467
+      ],
+      "normalizedAlphaBbox": [
+        26,
+        43,
+        307,
+        370
+      ],
+      "alphaSum": 14195446
+    },
+    {
+      "track": "punch-small",
+      "index": 3,
+      "sourceAlphaBbox": [
+        24,
+        139,
+        303,
+        467
+      ],
+      "normalizedAlphaBbox": [
+        24,
+        42,
+        303,
+        370
+      ],
+      "alphaSum": 14315696
+    },
+    {
+      "track": "punch-small",
+      "index": 4,
+      "sourceAlphaBbox": [
+        26,
+        139,
+        307,
+        467
+      ],
+      "normalizedAlphaBbox": [
+        26,
+        42,
+        307,
+        370
+      ],
+      "alphaSum": 14203424
+    },
+    {
+      "track": "punch-small",
+      "index": 5,
+      "sourceAlphaBbox": [
+        31,
+        137,
+        309,
+        467
+      ],
+      "normalizedAlphaBbox": [
+        31,
+        40,
+        309,
+        370
+      ],
+      "alphaSum": 14162227
+    },
+    {
+      "track": "punch-small",
+      "index": 6,
+      "sourceAlphaBbox": [
+        25,
+        138,
+        303,
+        466
+      ],
+      "normalizedAlphaBbox": [
+        25,
+        41,
+        303,
+        369
+      ],
+      "alphaSum": 14137296
+    },
+    {
+      "track": "punch-small",
+      "index": 7,
+      "sourceAlphaBbox": [
+        22,
+        137,
+        308,
+        466
+      ],
+      "normalizedAlphaBbox": [
+        22,
+        40,
+        308,
+        369
+      ],
+      "alphaSum": 14338384
+    },
+    {
+      "track": "punch-small",
+      "index": 8,
+      "sourceAlphaBbox": [
+        31,
+        138,
+        311,
+        466
+      ],
+      "normalizedAlphaBbox": [
+        31,
+        41,
+        311,
+        369
+      ],
+      "alphaSum": 14146509
+    },
+    {
+      "track": "cross-arms",
+      "index": 1,
+      "sourceAlphaBbox": [
+        59,
+        148,
+        340,
+        467
+      ],
+      "normalizedAlphaBbox": [
+        59,
+        51,
+        340,
+        370
+      ],
+      "alphaSum": 13607004
+    },
+    {
+      "track": "cross-arms",
+      "index": 2,
+      "sourceAlphaBbox": [
+        59,
+        147,
+        339,
+        467
+      ],
+      "normalizedAlphaBbox": [
+        59,
+        50,
+        339,
+        370
+      ],
+      "alphaSum": 13632072
+    },
+    {
+      "track": "cross-arms",
+      "index": 3,
+      "sourceAlphaBbox": [
+        60,
+        147,
+        340,
+        467
+      ],
+      "normalizedAlphaBbox": [
+        60,
+        50,
+        340,
+        370
+      ],
+      "alphaSum": 13624727
+    },
+    {
+      "track": "cross-arms",
+      "index": 4,
+      "sourceAlphaBbox": [
+        60,
+        147,
+        340,
+        467
+      ],
+      "normalizedAlphaBbox": [
+        60,
+        50,
+        340,
+        370
+      ],
+      "alphaSum": 13613105
+    },
+    {
+      "track": "cross-arms",
+      "index": 5,
+      "sourceAlphaBbox": [
+        61,
+        147,
+        337,
+        466
+      ],
+      "normalizedAlphaBbox": [
+        61,
+        50,
+        337,
+        369
+      ],
+      "alphaSum": 12851029
+    },
+    {
+      "track": "cross-arms",
+      "index": 6,
+      "sourceAlphaBbox": [
+        46,
+        155,
+        314,
+        467
+      ],
+      "normalizedAlphaBbox": [
+        46,
+        58,
+        314,
+        370
+      ],
+      "alphaSum": 12649412
+    },
+    {
+      "track": "cross-arms",
+      "index": 7,
+      "sourceAlphaBbox": [
+        62,
+        153,
+        335,
+        467
+      ],
+      "normalizedAlphaBbox": [
+        62,
+        56,
+        335,
+        370
+      ],
+      "alphaSum": 13051129
+    },
+    {
+      "track": "cross-arms",
+      "index": 8,
+      "sourceAlphaBbox": [
+        62,
+        153,
+        335,
+        467
+      ],
+      "normalizedAlphaBbox": [
+        62,
+        56,
+        335,
+        370
+      ],
+      "alphaSum": 13051732
+    }
+  ],
+  "variantMetrics": [
+    {
+      "track": "take-stone",
+      "index": 0,
+      "maskPixels": 155,
+      "whiteMasterExact": true,
+      "blackAlphaExact": true,
+      "outsideMaskExact": true
+    },
+    {
+      "track": "take-stone",
+      "index": 1,
+      "maskPixels": 141,
+      "whiteMasterExact": true,
+      "blackAlphaExact": true,
+      "outsideMaskExact": true
+    },
+    {
+      "track": "take-stone",
+      "index": 2,
+      "maskPixels": 144,
+      "whiteMasterExact": true,
+      "blackAlphaExact": true,
+      "outsideMaskExact": true
+    },
+    {
+      "track": "take-stone",
+      "index": 3,
+      "maskPixels": 136,
+      "whiteMasterExact": true,
+      "blackAlphaExact": true,
+      "outsideMaskExact": true
+    },
+    {
+      "track": "take-stone",
+      "index": 4,
+      "maskPixels": 224,
+      "whiteMasterExact": true,
+      "blackAlphaExact": true,
+      "outsideMaskExact": true
+    },
+    {
+      "track": "take-stone",
+      "index": 5,
+      "maskPixels": 225,
+      "whiteMasterExact": true,
+      "blackAlphaExact": true,
+      "outsideMaskExact": true
+    },
+    {
+      "track": "take-stone",
+      "index": 6,
+      "maskPixels": 317,
+      "whiteMasterExact": true,
+      "blackAlphaExact": true,
+      "outsideMaskExact": true
+    },
+    {
+      "track": "take-stone",
+      "index": 7,
+      "maskPixels": 295,
+      "whiteMasterExact": true,
+      "blackAlphaExact": true,
+      "outsideMaskExact": true
+    },
+    {
+      "track": "hold-stone",
+      "index": 0,
+      "maskPixels": 232,
+      "whiteMasterExact": true,
+      "blackAlphaExact": true,
+      "outsideMaskExact": true
+    },
+    {
+      "track": "hold-stone",
+      "index": 1,
+      "maskPixels": 231,
+      "whiteMasterExact": true,
+      "blackAlphaExact": true,
+      "outsideMaskExact": true
+    },
+    {
+      "track": "hold-stone",
+      "index": 2,
+      "maskPixels": 216,
+      "whiteMasterExact": true,
+      "blackAlphaExact": true,
+      "outsideMaskExact": true
+    },
+    {
+      "track": "hold-stone",
+      "index": 3,
+      "maskPixels": 218,
+      "whiteMasterExact": true,
+      "blackAlphaExact": true,
+      "outsideMaskExact": true
+    },
+    {
+      "track": "hold-stone",
+      "index": 4,
+      "maskPixels": 221,
+      "whiteMasterExact": true,
+      "blackAlphaExact": true,
+      "outsideMaskExact": true
+    },
+    {
+      "track": "hold-stone",
+      "index": 5,
+      "maskPixels": 223,
+      "whiteMasterExact": true,
+      "blackAlphaExact": true,
+      "outsideMaskExact": true
+    },
+    {
+      "track": "hold-stone",
+      "index": 6,
+      "maskPixels": 217,
+      "whiteMasterExact": true,
+      "blackAlphaExact": true,
+      "outsideMaskExact": true
+    },
+    {
+      "track": "hold-stone",
+      "index": 7,
+      "maskPixels": 227,
+      "whiteMasterExact": true,
+      "blackAlphaExact": true,
+      "outsideMaskExact": true
+    },
+    {
+      "track": "place-stone",
+      "index": 0,
+      "maskPixels": 171,
+      "whiteMasterExact": true,
+      "blackAlphaExact": true,
+      "outsideMaskExact": true
+    },
+    {
+      "track": "place-stone",
+      "index": 1,
+      "maskPixels": 163,
+      "whiteMasterExact": true,
+      "blackAlphaExact": true,
+      "outsideMaskExact": true
+    },
+    {
+      "track": "place-stone",
+      "index": 2,
+      "maskPixels": 150,
+      "whiteMasterExact": true,
+      "blackAlphaExact": true,
+      "outsideMaskExact": true
+    },
+    {
+      "track": "place-stone",
+      "index": 3,
+      "maskPixels": 88,
+      "whiteMasterExact": true,
+      "blackAlphaExact": true,
+      "outsideMaskExact": true
+    },
+    {
+      "track": "place-stone",
+      "index": 4,
+      "maskPixels": 107,
+      "whiteMasterExact": true,
+      "blackAlphaExact": true,
+      "outsideMaskExact": true
+    },
+    {
+      "track": "place-stone",
+      "index": 5,
+      "maskPixels": 222,
+      "whiteMasterExact": true,
+      "blackAlphaExact": true,
+      "outsideMaskExact": true
+    },
+    {
+      "track": "place-stone",
+      "index": 6,
+      "maskPixels": 229,
+      "whiteMasterExact": true,
+      "blackAlphaExact": true,
+      "outsideMaskExact": true
+    },
+    {
+      "track": "place-stone",
+      "index": 7,
+      "maskPixels": 228,
+      "whiteMasterExact": true,
+      "blackAlphaExact": true,
+      "outsideMaskExact": true
+    }
+  ],
+  "groundStonePixelsRemoved": 0,
+  "preparedVariantImageCount": 48,
+  "stoneMaskCount": 24,
+  "stoneMaskChangedPixelTotal": 4780,
+  "globalSourceAlphaBbox": [
+    22,
+    125,
+    356,
+    472
+  ],
+  "placePostReleaseFramesPreserved": true,
+  "placeReleaseMs": 800
+}

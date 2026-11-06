@@ -1,0 +1,27 @@
+{
+  "format": "dsh-chess-context-release-readiness-v1",
+  "hostVersion": "1.2.0",
+  "clientVersion": "1.2.1",
+  "verifiedDate": "2026-11-05",
+  "tests": {
+    "host": 470,
+    "client": 35,
+    "total": 505,
+    "fail": 0,
+    "cancelled": 0,
+    "skipped": 0
+  },
+  "clientSha256": "2fc738533934524dae8b21784ffb6489f1478e6f68cee8cf2185f07d25e342cf",
+  "frozenActorPrefixSha256": "d4ab70c6b1cf8a5de8497c2e81630ce7d47670ef025490ac0874c17377075b99",
+  "preserved": [
+    "original rules",
+    "original engine",
+    "published artwork",
+    "confirmed-only actor lifecycle",
+    "legacy bundles",
+    "paused artwork objective"
+  ],
+  "history": "Read-only detached projected committed text; bounded per request and logged only to an independent chess-model session.",
+  "verificationLimits": "Offline tests, syntax, UTF-8 JSON and hash checks. No real model/image inference, moves, chat or source selection. Installation, retained board and live browser rendering are separate checks. Exact first-turn model-token counts were not measured without a local tokenizer.",
+  "note": "Historical offline-readiness declaration. Public release validation is recorded in docs/verification.md."
+}

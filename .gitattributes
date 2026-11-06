@@ -1,0 +1,13 @@
+* text=auto eol=lf
+*.png binary
+*.webp binary
+*.gif binary
+*.jpg binary
+*.zip binary
+*.txt text eol=lf
+# These baseline seams deliberately preserve blank lines for exact bundle hashes.
+packages/dsh-chess-room-live-client/context-feature/baseline/frozen-prefix.txt whitespace=-blank-at-eof
+packages/dsh-chess-room-live-client/context-feature/src/client-context-source.js whitespace=-blank-at-eof
+packages/dsh-chess-room-live-client/fresh-client-source.js whitespace=-blank-at-eof
+packages/dsh-chess-room/client-live-src.js whitespace=-blank-at-eof
+packages/dsh-chess-room/client-src.js whitespace=-blank-at-eof

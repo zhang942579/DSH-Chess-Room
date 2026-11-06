@@ -1,0 +1,18 @@
+{
+  "package": "@linxin666/dsh-pet",
+  "version": "0.4.14",
+  "commit": "9ed843bccee3d2604ce0ac31f55cbde9bda97c7f",
+  "source": "https://github.com/zhu1090093659/dsh-pet/tree/9ed843bccee3d2604ce0ac31f55cbde9bda97c7f",
+  "license": "Apache-2.0",
+  "modifications": "TypeScript erased, local modules bundled with esbuild 0.25.12. Validation logic unchanged. Original source bytes and full license retained. Development validation only; not imported by Client or Host entry.",
+  "inputs": [
+    {
+      "path": "src/gameplay.ts",
+      "sha256": "c2c6de2aa6629e305248ebf97ec84b5905fc3745262d8fc27b1953b80eeb1590"
+    },
+    {
+      "path": "src/manifest-v2.ts",
+      "sha256": "5963c0dc7b569a523f0519d2c49018541e66fb363cd78b13fb4ee5cd9cd6c29c"
+    }
+  ]
+}

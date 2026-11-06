@@ -1,0 +1,44 @@
+import {readFile,writeFile} from 'node:fs/promises';
+import {createRequire} from 'node:module';
+import {fileURLToPath} from 'node:url';
+const root=new URL('../',import.meta.url),path=p=>fileURLToPath(new URL(p,root));
+const require=createRequire(new URL('../tools/client-build/package.json',import.meta.url)),{build}=require('esbuild');
+let source=await readFile(new URL('client.js',root),'utf8');
+function change(old,next){if(!source.includes(old)||source.indexOf(old)!==source.lastIndexOf(old))throw new Error('missing/ambiguous live seam: '+old.slice(0,70));source=source.replace(old,next);}
+change("window.__ModuleLoader__.load({\n  id: '@local/dsh-chess-room',\n  factory(require) {",'export function factory(require) {');change('  },\n});','}\n');
+change("const React = require('react'), h = React.createElement;","const React = require('react'), h = React.createElement;\n    const CharacterStagePreview=createStagePreview(React),{CharacterStageLive,CharacterStageControls}=createLiveStage(React);");
+change('    // Pure presentation helpers:','    Object.assign(zh,stageZh,liveStageZh);Object.assign(en,stageEn,liveStageEn);\n    // Pure presentation helpers:');
+change('    const viewModel = {','    const viewModel = {\n      stageRelease:LIVE_RELEASE,stageMode:"confirmed-live-mechanism",');
+change('function Page() {','function ChessRoomLiveV5() {');change('},Page));','},ChessRoomLiveV5));');
+change('        const stateRef=React.useRef(null),',`        const roomRootRef=React.useRef(null),boardRef=React.useRef(null),playerAvatarRef=React.useRef(null),playerCardRef=React.useRef(null),stageApiRef=React.useRef(null);
+        const [stageVisual,setStageVisual]=React.useState(null),[stageLocalQuiet,setStageLocalQuiet]=React.useState(false),[stagePrefs,setStagePrefs]=React.useState({reduce:false,drag:false,roam:true});
+        React.useEffect(()=>{if(state?.settings?.comments===false)setStageLocalQuiet(false);},[state?.settings?.comments]);
+        const stateRef=React.useRef(null),`);
+change('          const g=stateRef.current.game;',`          const g=stateRef.current.game;
+          if(['newGame','undo','resign'].includes(operation))stageApiRef.current?.cancel(operation);
+          if((operation==='settings'&&extra.comments===false)||(operation==='chat'&&requestsQuiet(extra.text))){setStageLocalQuiet(true);stageApiRef.current?.setQuiet(true);}
+          if(operation==='settings'&&extra.comments===true)setStageLocalQuiet(false);`);
+change('        const cells=[];',`        const liveStageEnabled=tab==='room'&&!viewing;
+        const maskedMove=liveStageEnabled&&connected?confirmedMoveMask(state,stageVisual?.model):null;
+        const feedback=liveStageEnabled&&connected?stageVisual?.model?.avatarFeedback:null;
+        const cells=[];`);
+change("cell?h('span',{className:`dcr-piece${cell===2?' white':''}`,'aria-hidden':true}","cell?h('span',{className:`dcr-piece${cell===2?' white':''}`,style:{visibility:maskedMove?.row===row&&maskedMove?.col===col?'hidden':undefined},'data-dcr-move-id':visibleMoves.find(m=>m.row===row&&m.col===col)?.moveId,'aria-hidden':true}");
+change("['room','records'].map","['room','records','motionPreview'].map");
+change("h('div',{className:'dcr-top-actions'},h('details'","h('div',{className:'dcr-top-actions'},tab==='motionPreview'?null:h('details'");
+change("comments?h('div',{className:'dcr-speech'}","comments&&!stageLocalQuiet?h('div',{className:'dcr-speech'}");
+change("h('section',{className:'dcr-card'},h('div',{className:'label-row'},h('span',{className:'muted'},t('seat'))),h('div',{className:'dcr-player-body'},h(Avatar,{profile,t}),",`h(CharacterStageControls,{t,apiRef:stageApiRef,prefs:stagePrefs,onPrefs:setStagePrefs,visual:stageVisual,enabled:liveStageEnabled}),
+          h('section',{className:'dcr-card',ref:playerCardRef},h('div',{className:'label-row'},h('span',{className:'muted'},t('seat'))),h('div',{className:'dcr-player-body'},h('div',{className:'dcr-live-avatar',ref:playerAvatarRef},h('div',{className:'dcr-live-avatar-inner',style:{transform:feedback?\`translateX(\${feedback.shake}px) rotate(\${feedback.shake*.8}deg)\`:undefined}},h(Avatar,{profile,t})),feedback?h('div',{className:'dcr-motion-stars','aria-hidden':true},[0,1,2].map(i=>h('span',{key:i},'✦'))):null),`);
+change("h('div',{className:'dcr-board','aria-label':t('rules')}","h('div',{className:'dcr-board',ref:boardRef,'aria-label':t('rules')}");
+change("t(tab==='records'?'records':'roomTitle')","t(tab==='records'?'records':tab==='motionPreview'?'motionTitle':'roomTitle')");
+change("t(tab==='records'?'saved':'roomSubtitle')","t(tab==='records'?'saved':tab==='motionPreview'?'motionSubtitle':'roomSubtitle')");
+change("h('div',{className:'dcr-mode-controls'},h('span'","tab==='motionPreview'?null:h('div',{className:'dcr-mode-controls'},h('span'");
+change("tab==='records'?renderRecords():h('div',{className:'dcr-layout'}","tab==='motionPreview'?h(CharacterStagePreview,{t,profile,runtimeId:state?.runtimeId??'',Avatar,roomRef:roomRootRef}):tab==='records'?renderRecords():h('div',{className:'dcr-layout'}");
+change('renderChat())),renderFooter()));',"renderChat())),tab==='motionPreview'?null:renderFooter()),h(CharacterStageLive,{snapshot:state,enabled:liveStageEnabled,online:connected,quiet:stageLocalQuiet||!comments,prefs:stagePrefs,t,rootRef:roomRootRef,boardRef,avatarRef:playerAvatarRef,cardRef:playerCardRef,apiRef:stageApiRef,onVisual:setStageVisual,interactionBusy:busy}));");
+change("return h('div',{className:'dcr','data-dcr-layout':'reference-v2'}","return h('div',{className:'dcr',ref:roomRootRef,'data-dcr-layout':'reference-v2','data-dcr-stage-live':LIVE_RELEASE}");
+source="import {createStagePreview,stageZh,stageEn} from './stage/ui.js';\nimport {createLiveStage,LIVE_RELEASE,liveStageZh,liveStageEn} from './stage/live-ui.js';\nimport {confirmedMoveMask} from './stage/live-events.js';\nimport {requestsQuiet} from './host/dialogue.js';\n"+source;
+const bootstrap="import {factory} from './client-live-src.js';\nwindow.__ModuleLoader__.load({id:'@local/dsh-chess-room',factory});\n";
+const result=await build({stdin:{contents:bootstrap,sourcefile:'client-live-bootstrap.js',resolveDir:path(''),loader:'js'},outfile:path('client-v5.js'),bundle:true,write:false,format:'iife',platform:'browser',target:'es2022',minify:false,legalComments:'inline',plugins:[{name:'owned-live-source-in-memory',setup(builder){builder.onResolve({filter:/^\.\/client-live-src\.js$/},()=>({path:'client-live-src.js',namespace:'owned'}));builder.onLoad({filter:/.*/,namespace:'owned'},()=>({contents:source,resolveDir:path(''),loader:'js'}));}}]});
+let entry=await readFile(new URL('entry-v3.js',root),'utf8');
+entry=entry.replace("'./host/ready.json'","'./host/ready-v5.json'").replace("'./host/room-v3.js'","'./host/room-v4.js'").replace("import { registerAvatarAssets } from './host/assets-v3.js';","import { registerAvatarAssets } from './host/assets-v3.js';\nimport { registerStageAssets } from './host/stage-assets-v4.js';").replace('  registerAvatarAssets(ctx);','  registerAvatarAssets(ctx);\n  registerStageAssets(ctx);');
+await writeFile(new URL('client-live-src.js',root),source);await writeFile(new URL('client-live-bootstrap.js',root),bootstrap);await writeFile(new URL('client-v5.js',root),result.outputFiles[0].contents);await writeFile(new URL('entry-v5.js',root),entry);
+console.log('Built Client v5 + durable-event Host v4; confirmed-only live stage.');

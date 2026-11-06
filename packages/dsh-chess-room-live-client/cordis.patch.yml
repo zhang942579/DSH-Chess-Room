@@ -1,0 +1,3 @@
+- insert:
+    - id: dsh-chess-room-live-client
+      name: '@local/dsh-chess-room-live-client'

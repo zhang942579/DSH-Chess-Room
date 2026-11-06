@@ -1,0 +1,4 @@
+- insert:
+    - id: dsh-chess-room
+      name: '@local/dsh-chess-room'
+      config: {}

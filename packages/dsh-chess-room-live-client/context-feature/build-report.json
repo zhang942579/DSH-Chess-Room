@@ -1,0 +1,23 @@
+{
+  "format": "dsh-chess-context-client-build-v1",
+  "clientVersion": "1.2.1",
+  "actorRuntimeVersion": "1.2.0",
+  "baselineSha256": "ccf688e97774cd0fdd20b2edddb598adfcaa0125ac32ea1433078792a9c3403b",
+  "frozenPrefixSha256": "d4ab70c6b1cf8a5de8497c2e81630ce7d47670ef025490ac0874c17377075b99",
+  "frozenPrefixBytes": 13622671,
+  "bundleSha256": "2fc738533934524dae8b21784ffb6489f1478e6f68cee8cf2185f07d25e342cf",
+  "bundleBytes": 13699721,
+  "sourceSha256": {
+    "controller": "a0b6031132dea8e8bf5bc150ae1d39c36af9d75d66db2beec50de06b60bdbd5b",
+    "picker": "d2b786ecb3a43f930d1459e4d5b7820ffc6737705a99fa6af90bf2678192e5a3",
+    "ui": "05670e0cbd9107468f0ee3f0dabb0478f79066b6509b3bc6bb05748137dc5996"
+  },
+  "preservation": "All baseline bytes before owned:fresh-client-source.js remain exact, including embedded assets, MotionDirector, actor renderer and accessibility lifecycle.",
+  "api": {
+    "endpoint": "/api/dsh-chess-room",
+    "catalog": "contextCatalog",
+    "binding": "bindContext",
+    "successResultField": "state"
+  },
+  "verificationLimit": "Syntax and offline tests only. Parent must integrate Host1.2.0, refresh existing GUI and verify live rendering."
+}

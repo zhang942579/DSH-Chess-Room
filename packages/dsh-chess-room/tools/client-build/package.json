@@ -1,0 +1,9 @@
+{
+  "name": "@local/dsh-chess-room-client-build",
+  "private": true,
+  "type": "module",
+  "description": "Build-time-only tooling; not a DSH plugin or profile dependency",
+  "dependencies": {
+    "esbuild": "0.25.12"
+  }
+}

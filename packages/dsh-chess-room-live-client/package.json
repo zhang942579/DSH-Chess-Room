@@ -1,0 +1,57 @@
+{
+  "name": "@local/dsh-chess-room-live-client",
+  "version": "1.2.1",
+  "private": true,
+  "type": "module",
+  "description": "Compact chess-room interface with persisted workspace/conversation selection and familiar read-only context, preserving the account avatar and published whale-maid choreography.",
+  "exports": {
+    ".": "./index-context-121.js",
+    "./client": "./client-context-121.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg",
+    "./THIRD_PARTY_NOTICES.md": "./THIRD_PARTY_NOTICES.md",
+    "./asset-origin.json": "./asset-origin.json"
+  },
+  "files": [
+    "index-context-121.js",
+    "client-context-121.js",
+    "context-feature",
+    "index.js",
+    "client.js",
+    "cordis.patch.yml",
+    "locale",
+    "icon.svg",
+    "README.md",
+    "THIRD_PARTY_NOTICES.md",
+    "asset-origin.json",
+    "LICENSE",
+    "ASSET-LICENSE.md"
+  ],
+  "engines": {
+    "dsh": ">=0.2.1-rc.3 <0.3.0"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "immediately": true,
+      "inject": [
+        "@deepseek-ai/dsh-client-ui-conversation",
+        "@deepseek-ai/dsh-client-locale",
+        "@local/dsh-chess-room"
+      ]
+    }
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhang942579/DSH-Chess-Room.git",
+    "directory": "packages/dsh-chess-room-live-client"
+  },
+  "bugs": {
+    "url": "https://github.com/zhang942579/DSH-Chess-Room/issues"
+  },
+  "homepage": "https://github.com/zhang942579/DSH-Chess-Room#readme"
+}

@@ -1,0 +1,220 @@
+{
+  "schemaVersion": 1,
+  "source": {
+    "file": "source.png",
+    "sha256": "84c38e06f675b615189c848965b77607542b7df9d2ce99c578734d0f8a6f0284",
+    "dimensions": [
+      910,
+      941
+    ],
+    "rights": "User-supplied avatar; derivative edits for this local request. Original ownership/license not independently verified.",
+    "alphaExtraction": {
+      "method": "4-connected exterior neutral-white flood fill plus three manually validated negative-space hole seeds; local one-pixel matte removal and isolated-speck cleanup",
+      "backgroundPixels": 359280,
+      "negativeSpaceSeeds": [
+        [
+          105,
+          592
+        ],
+        [
+          726,
+          558
+        ],
+        [
+          747,
+          736
+        ]
+      ],
+      "opaqueClothingAndEyeWhites": true
+    }
+  },
+  "defaultFormat": "webp",
+  "canvas": {
+    "png": [
+      448,
+      448
+    ],
+    "webp": [
+      384,
+      384
+    ],
+    "gif": [
+      384,
+      384
+    ]
+  },
+  "animation": {
+    "fps": 10,
+    "durationMs": 2400,
+    "loop": 0,
+    "frameCount": 24
+  },
+  "expressions": {
+    "idle": {
+      "png": "idle.png",
+      "webp": "idle.webp",
+      "gif": "idle.gif",
+      "width": 448,
+      "height": 448,
+      "webpWidth": 384,
+      "webpHeight": 384,
+      "gifWidth": 384,
+      "gifHeight": 384,
+      "frames": 24,
+      "frameCount": 24,
+      "durationMs": 2400,
+      "fps": 10,
+      "loop": 0,
+      "alt": "User's blue-haired whale maid, idle facial expression",
+      "animation": "facial blink where eyes are open; breathing and gentle sway; expression-specific illustrated effects",
+      "bytes": {
+        "png": 216133,
+        "webp": 726126,
+        "gif": 1384185
+      }
+    },
+    "thinking": {
+      "png": "thinking.png",
+      "webp": "thinking.webp",
+      "gif": "thinking.gif",
+      "width": 448,
+      "height": 448,
+      "webpWidth": 384,
+      "webpHeight": 384,
+      "gifWidth": 384,
+      "gifHeight": 384,
+      "frames": 24,
+      "frameCount": 24,
+      "durationMs": 2400,
+      "fps": 10,
+      "loop": 0,
+      "alt": "User's blue-haired whale maid, thinking facial expression",
+      "animation": "facial blink where eyes are open; breathing and gentle sway; expression-specific illustrated effects",
+      "bytes": {
+        "png": 215366,
+        "webp": 738670,
+        "gif": 1385607
+      }
+    },
+    "smug": {
+      "png": "smug.png",
+      "webp": "smug.webp",
+      "gif": "smug.gif",
+      "width": 448,
+      "height": 448,
+      "webpWidth": 384,
+      "webpHeight": 384,
+      "gifWidth": 384,
+      "gifHeight": 384,
+      "frames": 24,
+      "frameCount": 24,
+      "durationMs": 2400,
+      "fps": 10,
+      "loop": 0,
+      "alt": "User's blue-haired whale maid, smug facial expression",
+      "animation": "facial blink where eyes are open; breathing and gentle sway; expression-specific illustrated effects",
+      "bytes": {
+        "png": 213048,
+        "webp": 718436,
+        "gif": 1376314
+      }
+    },
+    "surprised": {
+      "png": "surprised.png",
+      "webp": "surprised.webp",
+      "gif": "surprised.gif",
+      "width": 448,
+      "height": 448,
+      "webpWidth": 384,
+      "webpHeight": 384,
+      "gifWidth": 384,
+      "gifHeight": 384,
+      "frames": 24,
+      "frameCount": 24,
+      "durationMs": 2400,
+      "fps": 10,
+      "loop": 0,
+      "alt": "User's blue-haired whale maid, surprised facial expression",
+      "animation": "facial blink where eyes are open; breathing and gentle sway; expression-specific illustrated effects",
+      "bytes": {
+        "png": 216366,
+        "webp": 739272,
+        "gif": 1382942
+      }
+    },
+    "troubled": {
+      "png": "troubled.png",
+      "webp": "troubled.webp",
+      "gif": "troubled.gif",
+      "width": 448,
+      "height": 448,
+      "webpWidth": 384,
+      "webpHeight": 384,
+      "gifWidth": 384,
+      "gifHeight": 384,
+      "frames": 24,
+      "frameCount": 24,
+      "durationMs": 2400,
+      "fps": 10,
+      "loop": 0,
+      "alt": "User's blue-haired whale maid, troubled facial expression",
+      "animation": "facial blink where eyes are open; breathing and gentle sway; expression-specific illustrated effects",
+      "bytes": {
+        "png": 216005,
+        "webp": 724340,
+        "gif": 1378033
+      }
+    },
+    "victory": {
+      "png": "victory.png",
+      "webp": "victory.webp",
+      "gif": "victory.gif",
+      "width": 448,
+      "height": 448,
+      "webpWidth": 384,
+      "webpHeight": 384,
+      "gifWidth": 384,
+      "gifHeight": 384,
+      "frames": 24,
+      "frameCount": 24,
+      "durationMs": 2400,
+      "fps": 10,
+      "loop": 0,
+      "alt": "User's blue-haired whale maid, victory facial expression",
+      "animation": "facial blink where eyes are open; breathing and gentle sway; expression-specific illustrated effects",
+      "bytes": {
+        "png": 212181,
+        "webp": 738790,
+        "gif": 1350071
+      }
+    },
+    "defeat": {
+      "png": "defeat.png",
+      "webp": "defeat.webp",
+      "gif": "defeat.gif",
+      "width": 448,
+      "height": 448,
+      "webpWidth": 384,
+      "webpHeight": 384,
+      "gifWidth": 384,
+      "gifHeight": 384,
+      "frames": 24,
+      "frameCount": 24,
+      "durationMs": 2400,
+      "fps": 10,
+      "loop": 0,
+      "alt": "User's blue-haired whale maid, defeat facial expression",
+      "animation": "facial blink where eyes are open; breathing and gentle sway; expression-specific illustrated effects",
+      "bytes": {
+        "png": 210305,
+        "webp": 710312,
+        "gif": 1338239
+      }
+    }
+  },
+  "totalRuntimeBytes": {
+    "png": 1499404,
+    "webp": 5095946,
+    "gif": 9595391
+  }
+}

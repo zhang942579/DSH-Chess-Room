@@ -1,0 +1,10 @@
+{
+  "format": "dsh-chess-frozen-client-v1",
+  "source": "../../../client.js",
+  "sourceSha256": "ccf688e97774cd0fdd20b2edddb598adfcaa0125ac32ea1433078792a9c3403b",
+  "prefixSha256": "d4ab70c6b1cf8a5de8497c2e81630ce7d47670ef025490ac0874c17377075b99",
+  "prefixBytes": 13622671,
+  "boundary": "// owned:fresh-client-source.js",
+  "uiSource": "src/client-context-source.js",
+  "sourcePolicy": "Exact compiled installed 1.2.0 prefix; no stage1.3.0 source import or artwork mutation."
+}

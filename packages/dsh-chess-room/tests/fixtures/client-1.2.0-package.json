@@ -1,0 +1,11 @@
+{
+  "name": "@local/dsh-chess-room-live-client",
+  "version": "1.2.0",
+  "private": true,
+  "type": "module",
+  "description": "Seven authorized AI action tracks for the existing DSH Gomoku Host; confirmed-only placement and exactly three harmless punches, preserving games.",
+  "exports": {".": "./index.js", "./client": "./client.js", "./locale/*.json": "./locale/*.json", "./icon": "./icon.svg", "./THIRD_PARTY_NOTICES.md": "./THIRD_PARTY_NOTICES.md", "./asset-origin.json": "./asset-origin.json"},
+  "files": ["index.js", "client.js", "cordis.patch.yml", "locale", "icon.svg", "README.md", "THIRD_PARTY_NOTICES.md", "asset-origin.json"],
+  "engines": {"dsh": ">=0.2.1-rc.3 <0.3.0"},
+  "dsh": {"bundle": {"patch": "./cordis.patch.yml"}, "client": {"platform": "web", "immediately": true, "inject": ["@deepseek-ai/dsh-client-ui-conversation", "@deepseek-ai/dsh-client-locale", "@local/dsh-chess-room"]}}
+}

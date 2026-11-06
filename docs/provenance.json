@@ -1,0 +1,14 @@
+{
+  "format": "dsh-chess-public-copy-v1",
+  "date": "2026-11-06",
+  "fileCount": 565,
+  "bytes": 147626155,
+  "runtimeVersions": {
+    "host": "1.2.0",
+    "client": "1.2.1"
+  },
+  "copyPolicy": "Allowlisted project source, test fixtures and user-authorized artwork. No profile, logs, saves, secrets, node_modules or generation requests.",
+  "artworkPublicDistribution": "Explicitly confirmed by the user on 2026-11-06. Separate artwork notice applies.",
+  "originalFrozenClientSha256": "ccf688e97774cd0fdd20b2edddb598adfcaa0125ac32ea1433078792a9c3403b",
+  "originalContextClientSha256": "2fc738533934524dae8b21784ffb6489f1478e6f68cee8cf2185f07d25e342cf"
+}

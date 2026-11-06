@@ -1,0 +1,58 @@
+{
+  "format": "dsh-ai-actions-origin-v1",
+  "userConfirmation": {
+    "recordedAt": "2026-11-03T23:09:00+08:00",
+    "statement": "这些素材是我用AI生成的，可以使用",
+    "timestampMeaning": "Local integration record time, not independently verified message timestamp",
+    "scope": "Integration/use of provided AI-generated action assets in this local project only"
+  },
+  "archive": {
+    "name": "dsh-maid-seven-actions-v1.zip",
+    "sha256": "1ea9bbbbeb8904606a58c05c2c3ef122a45582014bdacb00c1c91f0a1464c1a4",
+    "entries": 149,
+    "crcPassed": true
+  },
+  "reference": {
+    "decodedRgbMatchesExistingSource": true,
+    "existingSource": "assets/expressions/source.png",
+    "sourceFileSha256": "84c38e06f675b615189c848965b77607542b7df9d2ce99c578734d0f8a6f0284",
+    "zipReferenceSha256": "c1d8ced2d461348d14128178dc7950ab037583aee27516dfa69ec0f7d5def3b2"
+  },
+  "rights": {
+    "aiGenerated": true,
+    "originalRedistributionRights": "unverified",
+    "blanketCommercialAssertion": false,
+    "upstreamArtworkReused": false,
+    "upstreamArtworkReuseCount": 0,
+    "publicationRedistributionCommercialPermission": "not established by local integration confirmation"
+  },
+  "safety": {
+    "importAllowlist": "56 selected RGBA WebPs and 56 PNG backups only",
+    "executedArchiveCode": false,
+    "importedDependencies": false,
+    "networkCalls": false
+  },
+  "derivatives": {
+    "crop": [
+      0,
+      97,
+      384,
+      481
+    ],
+    "resampling": false,
+    "mirrorTracks": [
+      "take-stone"
+    ],
+    "normalizedMastersUnretouched": true,
+    "preparedVariants": true,
+    "stoneRecolor": "black: only one seed-connected cream-white interior component inside individually measured perframe source ROI; outside-mask RGBA and all alpha exact",
+    "stoneRemovalApplied": false,
+    "postReleaseDecision": "place06-08 shoe-contact stones preserved and marked unusedAfterHandover; parent runtime clip ends at place06 start (800ms)",
+    "rigOrGeneratedApiAnchorsUsed": false
+  },
+  "publicDistributionConfirmation": {
+    "date": "2026-11-06",
+    "statement": "我确认拥有当前鲸娘及衍生素材的公开分发授权，一起发布",
+    "scope": "Public distribution with DSH Chess Room; separate artwork notice applies."
+  }
+}

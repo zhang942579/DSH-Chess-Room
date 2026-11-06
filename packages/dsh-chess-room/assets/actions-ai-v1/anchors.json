@@ -1,0 +1,1145 @@
+{
+  "format": "dsh-ai-stone-anchors-v1",
+  "measurement": "Actual selected frame visual ROIs plus local pixel-connected cream-white interior centroid; not generated rig/API anchors",
+  "coordinateSpace": "384x384 normalized zero-based pixels",
+  "accuracy": "Approximate contact points +/-3px, centroid measures visible interior not hidden full stone; local masks never threshold whole character",
+  "tracks": {
+    "take-stone": [
+      {
+        "sourceRoi": [
+          295,
+          444,
+          325,
+          462
+        ],
+        "sourceInteriorBbox": [
+          298,
+          448,
+          320,
+          458
+        ],
+        "sourceCenter": [
+          308.65,
+          452.35
+        ],
+        "normalizedCenter": [
+          74.35,
+          355.35
+        ],
+        "normalizedInteriorBbox": [
+          64,
+          351,
+          86,
+          361
+        ],
+        "interiorPixels": 155,
+        "index": 0,
+        "name": "01",
+        "frame": "frames/take-stone/01.png",
+        "contact": [
+          142,
+          258
+        ],
+        "stoneState": "ground",
+        "sourceContact": [
+          241,
+          355
+        ],
+        "groundRemovalApplied": false,
+        "releaseBoundary": false,
+        "interiorMaskPath": "masks/stone-interior/take-stone/01.png",
+        "recolorPixels": 155,
+        "recolorAlphaPreserved": true,
+        "recolorOutsideMaskUnchanged": true
+      },
+      {
+        "sourceRoi": [
+          296,
+          444,
+          326,
+          462
+        ],
+        "sourceInteriorBbox": [
+          299,
+          448,
+          322,
+          457
+        ],
+        "sourceCenter": [
+          310.21,
+          451.96
+        ],
+        "normalizedCenter": [
+          72.79,
+          354.96
+        ],
+        "normalizedInteriorBbox": [
+          62,
+          351,
+          85,
+          360
+        ],
+        "interiorPixels": 141,
+        "index": 1,
+        "name": "02",
+        "frame": "frames/take-stone/02.png",
+        "contact": [
+          230,
+          286
+        ],
+        "stoneState": "ground",
+        "sourceContact": [
+          153,
+          383
+        ],
+        "groundRemovalApplied": false,
+        "releaseBoundary": false,
+        "interiorMaskPath": "masks/stone-interior/take-stone/02.png",
+        "recolorPixels": 141,
+        "recolorAlphaPreserved": true,
+        "recolorOutsideMaskUnchanged": true
+      },
+      {
+        "sourceRoi": [
+          290,
+          438,
+          319,
+          457
+        ],
+        "sourceInteriorBbox": [
+          293,
+          443,
+          315,
+          452
+        ],
+        "sourceCenter": [
+          303.76,
+          447.06
+        ],
+        "normalizedCenter": [
+          79.24,
+          350.06
+        ],
+        "normalizedInteriorBbox": [
+          69,
+          346,
+          91,
+          355
+        ],
+        "interiorPixels": 144,
+        "index": 2,
+        "name": "03",
+        "frame": "frames/take-stone/03.png",
+        "contact": [
+          193,
+          309
+        ],
+        "stoneState": "ground",
+        "sourceContact": [
+          190,
+          406
+        ],
+        "groundRemovalApplied": false,
+        "releaseBoundary": false,
+        "interiorMaskPath": "masks/stone-interior/take-stone/03.png",
+        "recolorPixels": 144,
+        "recolorAlphaPreserved": true,
+        "recolorOutsideMaskUnchanged": true
+      },
+      {
+        "sourceRoi": [
+          269,
+          437,
+          300,
+          457
+        ],
+        "sourceInteriorBbox": [
+          271,
+          441,
+          294,
+          450
+        ],
+        "sourceCenter": [
+          281.98,
+          444.88
+        ],
+        "normalizedCenter": [
+          101.02,
+          347.88
+        ],
+        "normalizedInteriorBbox": [
+          90,
+          344,
+          113,
+          353
+        ],
+        "interiorPixels": 136,
+        "index": 3,
+        "name": "04",
+        "frame": "frames/take-stone/04.png",
+        "contact": [
+          148,
+          337
+        ],
+        "stoneState": "ground",
+        "sourceContact": [
+          235,
+          434
+        ],
+        "groundRemovalApplied": false,
+        "releaseBoundary": false,
+        "interiorMaskPath": "masks/stone-interior/take-stone/04.png",
+        "recolorPixels": 136,
+        "recolorAlphaPreserved": true,
+        "recolorOutsideMaskUnchanged": true
+      },
+      {
+        "sourceRoi": [
+          269,
+          302,
+          299,
+          325
+        ],
+        "sourceInteriorBbox": [
+          271,
+          307,
+          296,
+          319
+        ],
+        "sourceCenter": [
+          283.01,
+          312.21
+        ],
+        "normalizedCenter": [
+          99.99,
+          215.21
+        ],
+        "normalizedInteriorBbox": [
+          88,
+          210,
+          113,
+          222
+        ],
+        "interiorPixels": 224,
+        "index": 4,
+        "name": "05",
+        "frame": "frames/take-stone/05.png",
+        "contact": [
+          101,
+          225
+        ],
+        "stoneState": "hand",
+        "sourceContact": [
+          282,
+          322
+        ],
+        "groundRemovalApplied": false,
+        "releaseBoundary": false,
+        "interiorMaskPath": "masks/stone-interior/take-stone/05.png",
+        "recolorPixels": 224,
+        "recolorAlphaPreserved": true,
+        "recolorOutsideMaskUnchanged": true
+      },
+      {
+        "sourceRoi": [
+          236,
+          295,
+          265,
+          315
+        ],
+        "sourceInteriorBbox": [
+          238,
+          298,
+          263,
+          311
+        ],
+        "sourceCenter": [
+          250.51,
+          303.51
+        ],
+        "normalizedCenter": [
+          132.49,
+          206.51
+        ],
+        "normalizedInteriorBbox": [
+          121,
+          201,
+          146,
+          214
+        ],
+        "interiorPixels": 225,
+        "index": 5,
+        "name": "06",
+        "frame": "frames/take-stone/06.png",
+        "contact": [
+          136,
+          217
+        ],
+        "stoneState": "hand",
+        "sourceContact": [
+          247,
+          314
+        ],
+        "groundRemovalApplied": false,
+        "releaseBoundary": false,
+        "interiorMaskPath": "masks/stone-interior/take-stone/06.png",
+        "recolorPixels": 225,
+        "recolorAlphaPreserved": true,
+        "recolorOutsideMaskUnchanged": true
+      },
+      {
+        "sourceRoi": [
+          207,
+          317,
+          237,
+          341
+        ],
+        "sourceInteriorBbox": [
+          207,
+          322,
+          234,
+          340
+        ],
+        "sourceCenter": [
+          220.43,
+          328.98
+        ],
+        "normalizedCenter": [
+          162.57,
+          231.98
+        ],
+        "normalizedInteriorBbox": [
+          150,
+          225,
+          177,
+          243
+        ],
+        "interiorPixels": 317,
+        "index": 6,
+        "name": "07",
+        "frame": "frames/take-stone/07.png",
+        "contact": [
+          167,
+          244
+        ],
+        "stoneState": "hand",
+        "sourceContact": [
+          216,
+          341
+        ],
+        "groundRemovalApplied": false,
+        "releaseBoundary": false,
+        "interiorMaskPath": "masks/stone-interior/take-stone/07.png",
+        "recolorPixels": 317,
+        "recolorAlphaPreserved": true,
+        "recolorOutsideMaskUnchanged": true
+      },
+      {
+        "sourceRoi": [
+          201,
+          315,
+          231,
+          338
+        ],
+        "sourceInteriorBbox": [
+          201,
+          320,
+          227,
+          337
+        ],
+        "sourceCenter": [
+          213.72,
+          326.47
+        ],
+        "normalizedCenter": [
+          169.28,
+          229.47
+        ],
+        "normalizedInteriorBbox": [
+          157,
+          223,
+          183,
+          240
+        ],
+        "interiorPixels": 295,
+        "index": 7,
+        "name": "08",
+        "frame": "frames/take-stone/08.png",
+        "contact": [
+          172,
+          242
+        ],
+        "stoneState": "hand",
+        "sourceContact": [
+          211,
+          339
+        ],
+        "groundRemovalApplied": false,
+        "releaseBoundary": false,
+        "interiorMaskPath": "masks/stone-interior/take-stone/08.png",
+        "recolorPixels": 295,
+        "recolorAlphaPreserved": true,
+        "recolorOutsideMaskUnchanged": true
+      }
+    ],
+    "hold-stone": [
+      {
+        "sourceRoi": [
+          145,
+          348,
+          177,
+          374
+        ],
+        "sourceInteriorBbox": [
+          149,
+          353,
+          172,
+          366
+        ],
+        "sourceCenter": [
+          160.02,
+          358.91
+        ],
+        "normalizedCenter": [
+          160.02,
+          261.91
+        ],
+        "normalizedInteriorBbox": [
+          149,
+          256,
+          172,
+          269
+        ],
+        "interiorPixels": 232,
+        "index": 0,
+        "name": "01",
+        "frame": "frames/hold-stone/01.png",
+        "contact": [
+          161,
+          270
+        ],
+        "stoneState": "hand",
+        "sourceContact": [
+          161,
+          367
+        ],
+        "groundRemovalApplied": false,
+        "releaseBoundary": false,
+        "interiorMaskPath": "masks/stone-interior/hold-stone/01.png",
+        "recolorPixels": 232,
+        "recolorAlphaPreserved": true,
+        "recolorOutsideMaskUnchanged": true
+      },
+      {
+        "sourceRoi": [
+          147,
+          348,
+          178,
+          374
+        ],
+        "sourceInteriorBbox": [
+          150,
+          353,
+          174,
+          366
+        ],
+        "sourceCenter": [
+          161.29,
+          358.85
+        ],
+        "normalizedCenter": [
+          161.29,
+          261.85
+        ],
+        "normalizedInteriorBbox": [
+          150,
+          256,
+          174,
+          269
+        ],
+        "interiorPixels": 231,
+        "index": 1,
+        "name": "02",
+        "frame": "frames/hold-stone/02.png",
+        "contact": [
+          162,
+          270
+        ],
+        "stoneState": "hand",
+        "sourceContact": [
+          162,
+          367
+        ],
+        "groundRemovalApplied": false,
+        "releaseBoundary": false,
+        "interiorMaskPath": "masks/stone-interior/hold-stone/02.png",
+        "recolorPixels": 231,
+        "recolorAlphaPreserved": true,
+        "recolorOutsideMaskUnchanged": true
+      },
+      {
+        "sourceRoi": [
+          137,
+          346,
+          171,
+          371
+        ],
+        "sourceInteriorBbox": [
+          142,
+          351,
+          165,
+          363
+        ],
+        "sourceCenter": [
+          152.76,
+          356.54
+        ],
+        "normalizedCenter": [
+          152.76,
+          259.54
+        ],
+        "normalizedInteriorBbox": [
+          142,
+          254,
+          165,
+          266
+        ],
+        "interiorPixels": 216,
+        "index": 2,
+        "name": "03",
+        "frame": "frames/hold-stone/03.png",
+        "contact": [
+          153,
+          268
+        ],
+        "stoneState": "hand",
+        "sourceContact": [
+          153,
+          365
+        ],
+        "groundRemovalApplied": false,
+        "releaseBoundary": false,
+        "interiorMaskPath": "masks/stone-interior/hold-stone/03.png",
+        "recolorPixels": 216,
+        "recolorAlphaPreserved": true,
+        "recolorOutsideMaskUnchanged": true
+      },
+      {
+        "sourceRoi": [
+          146,
+          346,
+          177,
+          372
+        ],
+        "sourceInteriorBbox": [
+          151,
+          351,
+          173,
+          363
+        ],
+        "sourceCenter": [
+          161.42,
+          356.33
+        ],
+        "normalizedCenter": [
+          161.42,
+          259.33
+        ],
+        "normalizedInteriorBbox": [
+          151,
+          254,
+          173,
+          266
+        ],
+        "interiorPixels": 218,
+        "index": 3,
+        "name": "04",
+        "frame": "frames/hold-stone/04.png",
+        "contact": [
+          162,
+          268
+        ],
+        "stoneState": "hand",
+        "sourceContact": [
+          162,
+          365
+        ],
+        "groundRemovalApplied": false,
+        "releaseBoundary": false,
+        "interiorMaskPath": "masks/stone-interior/hold-stone/04.png",
+        "recolorPixels": 218,
+        "recolorAlphaPreserved": true,
+        "recolorOutsideMaskUnchanged": true
+      },
+      {
+        "sourceRoi": [
+          145,
+          346,
+          177,
+          372
+        ],
+        "sourceInteriorBbox": [
+          150,
+          351,
+          172,
+          364
+        ],
+        "sourceCenter": [
+          160.52,
+          356.94
+        ],
+        "normalizedCenter": [
+          160.52,
+          259.94
+        ],
+        "normalizedInteriorBbox": [
+          150,
+          254,
+          172,
+          267
+        ],
+        "interiorPixels": 221,
+        "index": 4,
+        "name": "05",
+        "frame": "frames/hold-stone/05.png",
+        "contact": [
+          161,
+          268
+        ],
+        "stoneState": "hand",
+        "sourceContact": [
+          161,
+          365
+        ],
+        "groundRemovalApplied": false,
+        "releaseBoundary": false,
+        "interiorMaskPath": "masks/stone-interior/hold-stone/05.png",
+        "recolorPixels": 221,
+        "recolorAlphaPreserved": true,
+        "recolorOutsideMaskUnchanged": true
+      },
+      {
+        "sourceRoi": [
+          146,
+          347,
+          179,
+          373
+        ],
+        "sourceInteriorBbox": [
+          150,
+          352,
+          173,
+          364
+        ],
+        "sourceCenter": [
+          160.55,
+          357.46
+        ],
+        "normalizedCenter": [
+          160.55,
+          260.46
+        ],
+        "normalizedInteriorBbox": [
+          150,
+          255,
+          173,
+          267
+        ],
+        "interiorPixels": 223,
+        "index": 5,
+        "name": "06",
+        "frame": "frames/hold-stone/06.png",
+        "contact": [
+          162,
+          269
+        ],
+        "stoneState": "hand",
+        "sourceContact": [
+          162,
+          366
+        ],
+        "groundRemovalApplied": false,
+        "releaseBoundary": false,
+        "interiorMaskPath": "masks/stone-interior/hold-stone/06.png",
+        "recolorPixels": 223,
+        "recolorAlphaPreserved": true,
+        "recolorOutsideMaskUnchanged": true
+      },
+      {
+        "sourceRoi": [
+          162,
+          346,
+          195,
+          371
+        ],
+        "sourceInteriorBbox": [
+          167,
+          351,
+          189,
+          364
+        ],
+        "sourceCenter": [
+          177.57,
+          356.79
+        ],
+        "normalizedCenter": [
+          177.57,
+          259.79
+        ],
+        "normalizedInteriorBbox": [
+          167,
+          254,
+          189,
+          267
+        ],
+        "interiorPixels": 217,
+        "index": 6,
+        "name": "07",
+        "frame": "frames/hold-stone/07.png",
+        "contact": [
+          178,
+          268
+        ],
+        "stoneState": "hand",
+        "sourceContact": [
+          178,
+          365
+        ],
+        "groundRemovalApplied": false,
+        "releaseBoundary": false,
+        "interiorMaskPath": "masks/stone-interior/hold-stone/07.png",
+        "recolorPixels": 217,
+        "recolorAlphaPreserved": true,
+        "recolorOutsideMaskUnchanged": true
+      },
+      {
+        "sourceRoi": [
+          146,
+          347,
+          179,
+          373
+        ],
+        "sourceInteriorBbox": [
+          150,
+          352,
+          173,
+          365
+        ],
+        "sourceCenter": [
+          161.0,
+          357.84
+        ],
+        "normalizedCenter": [
+          161.0,
+          260.84
+        ],
+        "normalizedInteriorBbox": [
+          150,
+          255,
+          173,
+          268
+        ],
+        "interiorPixels": 227,
+        "index": 7,
+        "name": "08",
+        "frame": "frames/hold-stone/08.png",
+        "contact": [
+          162,
+          269
+        ],
+        "stoneState": "hand",
+        "sourceContact": [
+          162,
+          366
+        ],
+        "groundRemovalApplied": false,
+        "releaseBoundary": false,
+        "interiorMaskPath": "masks/stone-interior/hold-stone/08.png",
+        "recolorPixels": 227,
+        "recolorAlphaPreserved": true,
+        "recolorOutsideMaskUnchanged": true
+      }
+    ],
+    "place-stone": [
+      {
+        "sourceRoi": [
+          180,
+          322,
+          208,
+          346
+        ],
+        "sourceInteriorBbox": [
+          184,
+          325,
+          204,
+          337
+        ],
+        "sourceCenter": [
+          193.34,
+          330.49
+        ],
+        "normalizedCenter": [
+          193.34,
+          233.49
+        ],
+        "normalizedInteriorBbox": [
+          184,
+          228,
+          204,
+          240
+        ],
+        "interiorPixels": 171,
+        "index": 0,
+        "name": "01",
+        "frame": "frames/place-stone/01.png",
+        "contact": [
+          188,
+          243
+        ],
+        "stoneState": "hand",
+        "sourceContact": [
+          188,
+          340
+        ],
+        "groundRemovalApplied": false,
+        "releaseBoundary": false,
+        "interiorMaskPath": "masks/stone-interior/place-stone/01.png",
+        "recolorPixels": 171,
+        "recolorAlphaPreserved": true,
+        "recolorOutsideMaskUnchanged": true
+      },
+      {
+        "sourceRoi": [
+          214,
+          366,
+          242,
+          389
+        ],
+        "sourceInteriorBbox": [
+          218,
+          371,
+          236,
+          383
+        ],
+        "sourceCenter": [
+          226.09,
+          376.55
+        ],
+        "normalizedCenter": [
+          226.09,
+          279.55
+        ],
+        "normalizedInteriorBbox": [
+          218,
+          274,
+          236,
+          286
+        ],
+        "interiorPixels": 163,
+        "index": 1,
+        "name": "02",
+        "frame": "frames/place-stone/02.png",
+        "contact": [
+          221,
+          275
+        ],
+        "stoneState": "hand",
+        "sourceContact": [
+          221,
+          372
+        ],
+        "groundRemovalApplied": false,
+        "releaseBoundary": false,
+        "interiorMaskPath": "masks/stone-interior/place-stone/02.png",
+        "recolorPixels": 163,
+        "recolorAlphaPreserved": true,
+        "recolorOutsideMaskUnchanged": true
+      },
+      {
+        "sourceRoi": [
+          226,
+          444,
+          255,
+          467
+        ],
+        "sourceInteriorBbox": [
+          230,
+          449,
+          248,
+          460
+        ],
+        "sourceCenter": [
+          238.57,
+          454.0
+        ],
+        "normalizedCenter": [
+          238.57,
+          357.0
+        ],
+        "normalizedInteriorBbox": [
+          230,
+          352,
+          248,
+          363
+        ],
+        "interiorPixels": 150,
+        "index": 2,
+        "name": "03",
+        "frame": "frames/place-stone/03.png",
+        "contact": [
+          234,
+          353
+        ],
+        "stoneState": "hand",
+        "sourceContact": [
+          234,
+          450
+        ],
+        "groundRemovalApplied": false,
+        "releaseBoundary": false,
+        "interiorMaskPath": "masks/stone-interior/place-stone/03.png",
+        "recolorPixels": 150,
+        "recolorAlphaPreserved": true,
+        "recolorOutsideMaskUnchanged": true
+      },
+      {
+        "sourceRoi": [
+          218,
+          447,
+          250,
+          469
+        ],
+        "sourceInteriorBbox": [
+          226,
+          453,
+          242,
+          461
+        ],
+        "sourceCenter": [
+          233.17,
+          456.48
+        ],
+        "normalizedCenter": [
+          233.17,
+          359.48
+        ],
+        "normalizedInteriorBbox": [
+          226,
+          356,
+          242,
+          364
+        ],
+        "interiorPixels": 88,
+        "index": 3,
+        "name": "04",
+        "frame": "frames/place-stone/04.png",
+        "contact": [
+          229,
+          355
+        ],
+        "stoneState": "hand",
+        "sourceContact": [
+          229,
+          452
+        ],
+        "groundRemovalApplied": false,
+        "releaseBoundary": false,
+        "interiorMaskPath": "masks/stone-interior/place-stone/04.png",
+        "recolorPixels": 88,
+        "recolorAlphaPreserved": true,
+        "recolorOutsideMaskUnchanged": true
+      },
+      {
+        "sourceRoi": [
+          221,
+          447,
+          252,
+          468
+        ],
+        "sourceInteriorBbox": [
+          227,
+          452,
+          245,
+          460
+        ],
+        "sourceCenter": [
+          235.2,
+          455.76
+        ],
+        "normalizedCenter": [
+          235.2,
+          358.76
+        ],
+        "normalizedInteriorBbox": [
+          227,
+          355,
+          245,
+          363
+        ],
+        "interiorPixels": 107,
+        "index": 4,
+        "name": "05",
+        "frame": "frames/place-stone/05.png",
+        "contact": [
+          231,
+          355
+        ],
+        "stoneState": "ground",
+        "sourceContact": [
+          231,
+          452
+        ],
+        "groundRemovalApplied": false,
+        "releaseBoundary": true,
+        "interiorMaskPath": "masks/stone-interior/place-stone/05.png",
+        "recolorPixels": 107,
+        "recolorAlphaPreserved": true,
+        "recolorOutsideMaskUnchanged": true
+      },
+      {
+        "sourceRoi": [
+          219,
+          446,
+          250,
+          471
+        ],
+        "sourceInteriorBbox": [
+          221,
+          451,
+          245,
+          464
+        ],
+        "sourceCenter": [
+          232.05,
+          456.69
+        ],
+        "normalizedCenter": [
+          232.05,
+          359.69
+        ],
+        "normalizedInteriorBbox": [
+          221,
+          354,
+          245,
+          367
+        ],
+        "interiorPixels": 222,
+        "index": 5,
+        "name": "06",
+        "frame": "frames/place-stone/06.png",
+        "contact": [
+          200,
+          262
+        ],
+        "stoneState": "ground",
+        "sourceContact": [
+          200,
+          359
+        ],
+        "groundRemovalApplied": false,
+        "releaseBoundary": false,
+        "interiorMaskPath": "masks/stone-interior/place-stone/06.png",
+        "recolorPixels": 222,
+        "recolorAlphaPreserved": true,
+        "recolorOutsideMaskUnchanged": true,
+        "removalDecision": "Preserved: stone touches/occludes shoe, unsafe to erase; runtime clip hands off at frame06 start and must not display source06-08 after handover"
+      },
+      {
+        "sourceRoi": [
+          219,
+          446,
+          251,
+          471
+        ],
+        "sourceInteriorBbox": [
+          222,
+          450,
+          245,
+          464
+        ],
+        "sourceCenter": [
+          232.1,
+          456.19
+        ],
+        "normalizedCenter": [
+          232.1,
+          359.19
+        ],
+        "normalizedInteriorBbox": [
+          222,
+          353,
+          245,
+          367
+        ],
+        "interiorPixels": 229,
+        "index": 6,
+        "name": "07",
+        "frame": "frames/place-stone/07.png",
+        "contact": [
+          205,
+          247
+        ],
+        "stoneState": "ground",
+        "sourceContact": [
+          205,
+          344
+        ],
+        "groundRemovalApplied": false,
+        "releaseBoundary": false,
+        "interiorMaskPath": "masks/stone-interior/place-stone/07.png",
+        "recolorPixels": 229,
+        "recolorAlphaPreserved": true,
+        "recolorOutsideMaskUnchanged": true,
+        "removalDecision": "Preserved: stone touches/occludes shoe, unsafe to erase; runtime clip hands off at frame06 start and must not display source06-08 after handover"
+      },
+      {
+        "sourceRoi": [
+          219,
+          446,
+          251,
+          471
+        ],
+        "sourceInteriorBbox": [
+          222,
+          451,
+          246,
+          463
+        ],
+        "sourceCenter": [
+          232.9,
+          456.42
+        ],
+        "normalizedCenter": [
+          232.9,
+          359.42
+        ],
+        "normalizedInteriorBbox": [
+          222,
+          354,
+          246,
+          366
+        ],
+        "interiorPixels": 228,
+        "index": 7,
+        "name": "08",
+        "frame": "frames/place-stone/08.png",
+        "contact": [
+          201,
+          243
+        ],
+        "stoneState": "ground",
+        "sourceContact": [
+          201,
+          340
+        ],
+        "groundRemovalApplied": false,
+        "releaseBoundary": false,
+        "interiorMaskPath": "masks/stone-interior/place-stone/08.png",
+        "recolorPixels": 228,
+        "recolorAlphaPreserved": true,
+        "recolorOutsideMaskUnchanged": true,
+        "removalDecision": "Preserved: stone touches/occludes shoe, unsafe to erase; runtime clip hands off at frame06 start and must not display source06-08 after handover"
+      }
+    ]
+  }
+}

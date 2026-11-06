@@ -1,0 +1,6 @@
+packages:
+  - packages/*
+  - packages/dsh-chess-room/tools/client-build
+
+allowBuilds:
+  esbuild: true

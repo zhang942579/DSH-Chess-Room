@@ -1,0 +1,34 @@
+import {readFile,writeFile,mkdir} from 'node:fs/promises';
+import {createRequire} from 'node:module';
+import {fileURLToPath} from 'node:url';
+const root=new URL('../',import.meta.url);
+const require=createRequire(new URL('../tools/client-build/package.json',import.meta.url));
+const {build}=require('esbuild');
+const path=p=>fileURLToPath(new URL(p,root));
+let source=await readFile(new URL('client.js',root),'utf8');
+function change(old,next){if(!source.includes(old))throw new Error(`source seam missing: ${old.slice(0,65)}`);if(source.indexOf(old)!==source.lastIndexOf(old))throw new Error('ambiguous source seam');source=source.replace(old,next);}
+change("window.__ModuleLoader__.load({\n  id: '@local/dsh-chess-room',\n  factory(require) {",'export function factory(require) {');
+change('  },\n});','}\n');
+change("const React = require('react'), h = React.createElement;","const React = require('react'), h = React.createElement;\n    const CharacterStagePreview=createStagePreview(React);");
+change('    // Pure presentation helpers:','    Object.assign(zh,stageZh);Object.assign(en,stageEn);\n    // Pure presentation helpers:');
+change('    const viewModel = {','    const viewModel = {\n      stageRelease:PREVIEW_RELEASE,stageMode:"isolated-mechanism-preview",');
+change('        const stateRef=React.useRef(null),','        const roomRootRef=React.useRef(null);\n        const stateRef=React.useRef(null),');
+change("['room','records'].map", "['room','records','motionPreview'].map");
+change("h('div',{className:'dcr-top-actions'},h('details'", "h('div',{className:'dcr-top-actions'},tab==='motionPreview'?null:h('details'");
+change("t(tab==='records'?'records':'roomTitle')", "t(tab==='records'?'records':tab==='motionPreview'?'motionTitle':'roomTitle')");
+change("t(tab==='records'?'saved':'roomSubtitle')", "t(tab==='records'?'saved':tab==='motionPreview'?'motionSubtitle':'roomSubtitle')");
+change("h('div',{className:'dcr-mode-controls'},h('span'", "tab==='motionPreview'?null:h('div',{className:'dcr-mode-controls'},h('span'");
+change("tab==='records'?renderRecords():h('div',{className:'dcr-layout'}", "tab==='motionPreview'?h(CharacterStagePreview,{t,profile,runtimeId:state?.runtimeId??'',Avatar,roomRef:roomRootRef}):tab==='records'?renderRecords():h('div',{className:'dcr-layout'}");
+change('renderChat())),renderFooter()));',"renderChat())),tab==='motionPreview'?null:renderFooter()));");
+change("return h('div',{className:'dcr','data-dcr-layout':'reference-v2'}", "return h('div',{className:'dcr',ref:roomRootRef,'data-dcr-layout':'reference-v2','data-dcr-stage-client':PREVIEW_RELEASE}");
+source="import {createStagePreview,stageZh,stageEn} from './stage/ui.js';\nimport {PREVIEW_RELEASE} from './stage/preview-data.js';\n"+source;
+change('function Page() {','function ChessRoomPreviewV4() {');
+change('},Page));','},ChessRoomPreviewV4));');
+const bootstrap="import {factory} from './client-src.js';\nwindow.__ModuleLoader__.load({id:'@local/dsh-chess-room',factory});\n";
+const result=await build({stdin:{contents:bootstrap,sourcefile:'client-bootstrap.js',resolveDir:path(''),loader:'js'},outfile:path('client-v4.js'),bundle:true,write:false,format:'iife',platform:'browser',target:'es2022',minify:false,legalComments:'inline',plugins:[{name:'owned-source-in-memory',setup(builder){builder.onResolve({filter:/^\.\/client-src\.js$/},()=>({path:'client-src.js',namespace:'owned'}));builder.onLoad({filter:/.*/,namespace:'owned'},()=>({contents:source,resolveDir:path(''),loader:'js'}));}}]});
+// Commit wrapper/artifacts only once bundling has succeeded.
+await writeFile(new URL('client-src.js',root),source);await writeFile(new URL('client-bootstrap.js',root),bootstrap);
+await writeFile(new URL('client-v4.js',root),result.outputFiles[0].contents);
+const entry=await readFile(new URL('entry-v3.js',root),'utf8');
+await writeFile(new URL('entry-v4.js',root),entry.replace("import { registerAvatarAssets } from './host/assets-v3.js';","import { registerAvatarAssets } from './host/assets-v3.js';\nimport { registerStageAssets } from './host/stage-assets-v4.js';").replace('  registerAvatarAssets(ctx);','  registerAvatarAssets(ctx);\n  registerStageAssets(ctx);'));
+console.log('Built native Client v4 and asset-only Host entry; production rules/storage/RPC unchanged.');

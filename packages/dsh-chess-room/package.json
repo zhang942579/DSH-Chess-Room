@@ -1,0 +1,82 @@
+{
+  "name": "@local/dsh-chess-room",
+  "version": "1.2.0",
+  "private": true,
+  "type": "module",
+  "description": "Persistent Gomoku with read-only workspace/conversation history binding, a familiar conversational style, model-chosen legal candidates and confirmed-only whale-maid choreography.",
+  "exports": {
+    ".": "./entry-v6.js",
+    "./client": "./client-v5.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": [
+    "entry-v6.js",
+    "entry-v5.js",
+    "client-v5.js",
+    "client-live-src.js",
+    "client-live-bootstrap.js",
+    "entry-v4.js",
+    "entry-v3.js",
+    "entry-v2.js",
+    "entry.js",
+    "index.js",
+    "client-v4.js",
+    "client-src.js",
+    "client-bootstrap.js",
+    "client.js",
+    "stage",
+    "host",
+    "assets/expressions",
+    "assets/stage",
+    "vendor",
+    "scripts",
+    "tests",
+    "docs",
+    "tools/client-build/package.json",
+    "tools/client-build/pnpm-lock.yaml",
+    "locale",
+    "icon.svg",
+    "cordis.patch.yml",
+    "README.md",
+    "LICENSE",
+    "ASSET-LICENSE.md",
+    "THIRD_PARTY_NOTICES.md",
+    "assets/actions-ai-v1"
+  ],
+  "dependencies": {
+    "zod": "^4.0.0"
+  },
+  "scripts": {
+    "test": "node --test tests/*.test.js",
+    "build:client": "node scripts/build-live-client.mjs",
+    "build:preview": "node scripts/build-client.mjs",
+    "build:validator": "node scripts/build-manifest-validator.mjs"
+  },
+  "engines": {
+    "dsh": ">=0.2.1-rc.3 <0.3.0"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "immediately": true,
+      "inject": [
+        "@deepseek-ai/dsh-client-ui-conversation",
+        "@deepseek-ai/dsh-client-locale"
+      ]
+    }
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhang942579/DSH-Chess-Room.git",
+    "directory": "packages/dsh-chess-room"
+  },
+  "bugs": {
+    "url": "https://github.com/zhang942579/DSH-Chess-Room/issues"
+  },
+  "homepage": "https://github.com/zhang942579/DSH-Chess-Room#readme"
+}

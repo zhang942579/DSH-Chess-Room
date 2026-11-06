@@ -1,0 +1,25 @@
+name: 问题反馈
+description: 报告可复现的问题
+body:
+  - type: input
+    id: versions
+    attributes:
+      label: DSH 与插件版本
+      placeholder: DSH 版本 / Host 版本 / Client 版本
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: 复现步骤和实际结果
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: 预期行为
+  - type: textarea
+    id: evidence
+    attributes:
+      label: 脱敏截图或日志
+      description: 请遮住账号头像和昵称，勿附带密钥、令牌、私人聊天或存档。
